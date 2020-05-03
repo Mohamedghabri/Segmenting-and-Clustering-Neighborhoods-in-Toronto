@@ -1,0 +1,63 @@
++*In[ ]:*+
+[source, ipython3]
+----
+
+import numpy as np 
+
+import pandas as pd 
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+
+import json 
+
+!conda install -c conda-forge geopy --yes 
+from geopy.geocoders import Nominatim 
+
+import requests 
+from pandas.io.json import json_normalize 
+
+
+import matplotlib.cm as cm
+import matplotlib.colors as colors
+
+
+from sklearn.cluster import KMeans
+
+
+from bs4 import BeautifulSoup
+
+import xml
+
+!conda install -c conda-forge folium=0.5.0 --yes 
+import folium 
+
+print('Libraries imported.')
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
